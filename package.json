@@ -8,9 +8,14 @@
     "start": "next start"
   },
   "dependencies": {
+    "framer-motion": "^12.23.22",
+    "lucide-react": "^0.544.0",
+    "next": "15.5.4",
+    "nodemailer": "^7.0.9",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "next": "15.5.4"
+    "react-hot-toast": "^2.6.0",
+    "toast": "^0.5.4"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
