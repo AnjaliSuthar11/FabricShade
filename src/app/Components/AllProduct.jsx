@@ -124,7 +124,7 @@ export default function AllProduct() {
               key={index}
               className="relative w-full h-64 border rounded-lg overflow-hidden shadow hover:shadow-md transition"
             >
-              <Image
+              <img
                 src={lamp.src}
                 alt={lamp.name}
                 fill
