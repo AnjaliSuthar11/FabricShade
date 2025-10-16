@@ -4,6 +4,30 @@ import Image from "next/image";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 
 
+// const slides = [
+//   {
+//     id: 1,
+//     title: "New Arrivals",
+//     description: "Discover the latest trends in fashion at unbeatable prices.",
+//     img: "/5.jpg",
+//     button: "Shop Now",
+//   },
+//   {
+//     id: 2,
+//     title: "Summer Collection",
+//     description: "Stay cool and stylish with our summer picks.",
+//     img: "/3.jpg",
+//     button: "Explore",
+//   },
+//   {
+//     id: 3,
+//     title: "Exclusive Deals",
+//     description: "Get up to 50% off on selected items. Limited time offer!",
+//     img: "/Hotel-Room-Dbl-1.jpg",
+//     button: "Grab Deals",
+//   },
+// ];
+
 const slides = [
   {
     id: 1,
@@ -67,6 +91,7 @@ export default function HeroSlider() {
               className="object-cover"
               priority
             />
+           
             <div className="absolute inset-0 bg-black/40 flex flex-col justify-center items-center text-center text-white p-6">
               <h2 className="text-4xl md:text-6xl font-bold mb-4">
                 {slide.title}

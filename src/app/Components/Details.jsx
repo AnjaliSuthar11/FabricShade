@@ -12,7 +12,7 @@ const Details = () => {
                 </div>
                 <div className='text-center'>
                     <h1 className='font-bold'>3468</h1>
-                    <p className='pl-3'>Happy Patients</p>
+                    <p className='pl-3'>Lorem ipsum dolor sit. </p>
                 </div>
             </div>
             <div className='flex flex-col md:flex-row justify-center items-center text-white gap-2'>
@@ -21,7 +21,7 @@ const Details = () => {
                 </div>
                 <div className='text-center'>
                     <h1 className='font-bold'>3</h1>
-                    <p>Hospitals Covered</p>
+                    <p>Lorem ipsum dolor sit. </p>
                 </div>
             </div>
         </div>
@@ -32,7 +32,7 @@ const Details = () => {
                 </div>
                 <div className='text-center'>
                     <h1 className='font-bold'>4379</h1>
-                    <p className='pl-6'>Happy Patients</p>
+                    <p className='pl-6'>Lorem ipsum dolor sit.</p>
                 </div>
             </div>
             <div className='flex flex-col md:flex-row justify-center items-center text-white gap-2'>
@@ -41,7 +41,7 @@ const Details = () => {
                 </div>
                 <div className='text-center'>
                     <h1 className='font-bold'>18</h1>
-                    <p>Years of Experience</p>
+                    <p>Lorem ipsum dolor sit.</p>
                 </div>
             </div>
               
