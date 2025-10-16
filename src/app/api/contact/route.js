@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 
 import nodemailer from "nodemailer"
+
 export default async function POST(req,res) {
   if (req.method !== "POST") {
     return res.status(405).json({ message: "Method not allowed" });

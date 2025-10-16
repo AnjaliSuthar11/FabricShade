@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import Navbar from './Navbar';
+import Footer from './Footer';
 
 const lampsByShape = {
   Ceiling: [
@@ -125,6 +126,7 @@ export default function AllProduct() {
           </p>
         )}
       </div>
+      <Footer/>
     </div>
   );
 }
