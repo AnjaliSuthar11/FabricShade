@@ -74,32 +74,31 @@ export default function AllProduct() {
       : allLamps.filter((lamp) => lamp.shape === selectedShape);
 
   return (
-    <div className="pt-32">
+    <div className="pt-28">
       <Navbar />
-      <div className="px-6 md:px-16 lg:px-32 py-10">
-        <h1 className="text-3xl font-semibold text-center mb-8">
+      <div className="px-6 md:px-16 lg:px-32 py-6">
+        <h1 className="text-3xl font-semibold text-center mb-5">
           Lamp Gallery
         </h1>
 
-        {/* Shape Filters */}
-        <div className="flex flex-wrap justify-center gap-4 mb-10">
-          {['All', ...shapeOptions].map((shape) => (
-            <button
-              key={shape}
-              onClick={() => setSelectedShape(shape)}
-              className={`px-4 py-2 rounded-full border transition ${
-                selectedShape === shape
-                  ? 'bg-[#009bf1] text-white border-[#009bf1]'
-                  : 'border-gray-400 text-gray-700'
-              }`}
-            >
-              {shape}
-            </button>
-          ))}
-        </div>
-
+        {/* Shape Filters (Centered) */}
+       <div className="flex flex-row flex-wrap gap-2 md:gap-5 py-5 md:justify-center  ">
+  {['All', ...shapeOptions].map((shape) => (
+    <button
+      key={shape}
+      onClick={() => setSelectedShape(shape)}
+      className={`rounded-2xl px-3  py-2 border transition text-sm sm:text-base md:text-lg  ${
+        selectedShape === shape
+          ? 'bg-[#009bf1] text-white border-[#009bf1]'
+          : 'border-gray-400 text-gray-700'
+      }`}
+    >
+      {shape}
+    </button>
+  ))}
+</div>
         {/* Image Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {filteredLamps.map((lamp, index) => (
             <div
               key={index}
@@ -110,7 +109,7 @@ export default function AllProduct() {
                 alt={lamp.name}
                 fill
                 className="object-cover"
-                sizes="(max-width: 768px) 100vw, 33vw"
+                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 33vw, 25vw"
                 priority={index < 4} // Optimize above-the-fold images
               />
               <div className="absolute bottom-0 bg-black bg-opacity-50 text-white text-sm p-2 w-full text-center">

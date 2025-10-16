@@ -38,7 +38,7 @@ export default function Contact() {
   };
 
   return (
-    <div className="pt-32">
+    <div className="pt-28">
     <Navbar/>
     <div className="min-h-screen bg-gray-50 text-gray-800">
       {/* Hero Banner */}

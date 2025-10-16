@@ -6,7 +6,7 @@ import Footer from "./Footer";
 export default function AboutUs() {
   return (
     <>
-    <div className="max-w-5xl mx-auto px-4 pt-36">
+    <div className="max-w-5xl mx-auto px-4 pt-28">
       {/* Page Title */}
       <h2 className="text-3xl font-bold border-b-2 border-pink-500 inline-block pb-1 mb-6">
         About

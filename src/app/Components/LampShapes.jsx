@@ -28,7 +28,7 @@ const Product = () => {
                     
                 </div>
                 <div className='flex flex-col justify-center p-5 gap-3 w-full md:w-[260px] lg:w-[30%] shadow-lg rounded-md hover:-translate-y-2 transition-transform duration-500 ease-out'>
-                    <img src="/Lampshade/half/DE-46.jpg"/>
+                    <img src="/lampshade/half/DE-46.jpg"/>
                     <Link href={""} className=''>Half</Link>
                     
                 </div>
